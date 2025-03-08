@@ -10,6 +10,7 @@ app.use(bodyParser.json()); // Also handle JSON requests
 app.use(express.static(__dirname)); 
 
 // MySQL Connection
+/*
 const connection = mysql.createConnection({
   host: "localhost",
   user: "host_try1",
@@ -78,6 +79,8 @@ app.post("/add-product", (req, res) => {
     });
   });
 });
-
+*/
 // Start Server
 app.listen(2020, () => console.log("Server running on http://localhost:2020"));
+
+
