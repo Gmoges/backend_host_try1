@@ -81,4 +81,4 @@ app.post("/add-product", (req, res) => {
 });
 
 // Start Server
-app.listen(() => console.log("Server running on http://localhost:2020"));
+app.listen(2020, () => console.log("Server running on http://localhost:2020"));
